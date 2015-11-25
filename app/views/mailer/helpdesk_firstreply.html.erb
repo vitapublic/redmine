@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+    <body style="background-color: #eee;font-family: sans-serif;font-size: 20px">
+        <table align="center">
+            <tbody>
+                <tr>
+                    <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <table style>
+                            <tbody>
+                                <tr>
+                                    <td class="wide2" style="width: 16px">&nbsp;</td>
+                                    <td>
+                                        <img width="162" height="66" alt="juuna logo" src="https://www.juuna.de/img/emailLogo.png"/>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                 <tr>
+                    <td colspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="wide" style="width: 8px">&nbsp;</td>
+                    <td>
+                        <div class="msg" style="max-width: 600px;background-color: white;margin: auto;font-size: 20px;color: #333">
+                            <table class="white" style="font-family: sans-serif; background-color: white;width:500px;">
+                                <tbody>
+                                    <tr>
+                                        <td colspan="3">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                     <td class="wide" style="width: 8px">&nbsp;</td>
+                                        <td><%= @reply.gsub(/[\n]/,"<br/>").html_safe %></td>
+                                        <td class="wide" style="width: 8px">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">&nbsp;</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                    <td class="wide" style="width: 8px">&nbsp;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="small" style="font-family: sans-serif; font-size: 8pt;color: #333;line-height: 1.5em;text-align: center">
+            vitacare GmbH &bull; Ganghoferstr. 68 &bull; 80339 M&uuml;nchen &bull; Gesch&auml;ftsf&uuml;hrer: Kamilo Kolarz<br>
+            Registergericht M&uuml;nchen HRB 204560 &bull; USt.-ID: DE289648244<br>
+        </p>
+    </body>
+</html>
